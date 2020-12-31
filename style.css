@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+nav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 1.4em;
+}
+.logo h2{
+    color:blue;
+    text-shadow: 1px 1px 4px black;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.logo{
+    width:70%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+    margin-right: 1.2em;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+ul li a:hover{
+    color: blue;
+}
+.info{
+    position: absolute;
+    top: 20em;
+    left: 5em;
+}
+.info h1{
+    color: white;
+}
+.info p{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+}
+span{
+    animation: mymove 10s infinite;
+}
+.info button{
+    padding: 0.8em 1.2em;
+    border-radius: 0.3em;
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+button:hover{
+    opacity: 80%;
+}
+.frontimg{
+    position: absolute;
+    top: 10em;
+    left: 50em;
+}
+.bg-color{
+    position: absolute;
+    top: 16em;
+    left: 40em;
+    width: 30em;
+    height: 23em;
+    background-color: blue;
+    border-radius: 50%;
+}
+.frontimg:hover{
+    position: absolute;
+    top: 10em;
+    left: 48em;
+}
+@keyframes mymove {
+    0%   {color: blue;}
+    25%  {color: red;}
+    50%  {color: green;}
+    75%  {color: yellow;}
+    100% {color: crimson;}
+  }
