@@ -1,0 +1,49 @@
+* {
+  font-family: sans-serif !important;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: blue !important;
+}
+.nav-item {
+  margin-right: 2rem;
+}
+
+.leadtext {
+  margin-top: 10rem;
+}
+.name {
+  font-weight: bold;
+}
+.name:hover {
+  color: red !important;
+}
+
+.image {
+  margin-top: 5rem;
+}
+
+.about {
+  text-align: justify;
+}
+.skills ul li:not(:first-child) {
+  margin-bottom: 1rem;
+}
+.skills ul li:first-child {
+  margin-bottom: 2rem;
+}
+#social ul li a {
+  color: white;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactText {
+  color: lightblue;
+  font-size: 2rem;
+  margin-left: 2rem;
+}
